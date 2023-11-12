@@ -53,7 +53,7 @@ app.use("/comptaCharges", comptaCharges_router )
 
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../front/build', 'index.html'));
+  res.sendFile(path.join(__dirname, './build', 'index.html'));
 });
 
 
