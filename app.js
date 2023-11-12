@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true })); //l'encodage des url car on a p
 
 ////////////////////
 
-app.use(express.static(path.join(__dirname, '../front/build')));  
+app.use(express.static(path.join(__dirname, './build')));  
 
 
 
